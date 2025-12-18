@@ -12,6 +12,9 @@ export const Header = styled.header`
   display: flex;
   border-radius: 6px;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 
   h1 {
     font-size: 18px;

@@ -1,6 +1,15 @@
 {
-  "editor.formatOnSave": false,
+  // Formatação automática controlada pelo ESLint
+  "editor.formatOnSave": true,
+
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  }
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+
+  // Prettier como formatter padrão
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Força LF e evita CRLF no Windows
+  "files.eol": "\n"
 }
